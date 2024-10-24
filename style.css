@@ -1,0 +1,394 @@
+body {
+  padding: 20px 90px;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px; /* Adjust margin as needed */
+  padding: 10px 40px ;
+  margin: 20px 50px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6c757d;
+}
+
+.search-input {
+  padding-left: 30px; /* Space for the icon */
+}
+
+.container {
+  background-color: black;
+  color: white;
+  padding: 10px 5px;
+
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  margin: 10px 20px;
+  justify-content: center;
+
+}
+
+.page h1 {
+  padding-top: 150px;
+}
+
+.mainpage {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #F6F6F6;
+}
+.card{
+  color: black;
+}
+.container-fluid{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 100px;
+}
+.Ship{
+  text-align: center;
+}
+.products{
+  display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 60px;
+}
+.browse{
+  padding: 120px 30px;
+  background-color: ghostwhite;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.feature{
+  text-align: center;
+  padding: 30px 40px;
+}
+.product{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+padding: 20px 60px;
+}
+.news{
+  padding: 20px 60px;
+  background-color: ghostwhite;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.top{
+  background-color: black;
+  color: white;
+}
+.area{
+ display: flex;
+ justify-content: space-evenly;
+
+  padding: 20px 30px;
+}
+.like{
+padding: 30px 80px;
+
+}
+.detail{
+  display: flex;
+  justify-content: space-between;
+}
+.review{
+  display: flex;
+}
+.review i{
+  margin-right: 10px;
+  margin-top: 3px;
+}
+.review{
+  padding: 4px 16px;
+  border: 1px solid grey;
+  border-radius: 16px;
+  background-color: #878A92;
+  margin-right: 10px;
+  height: 35px;
+}
+.reviews{
+  display: flex;
+}
+.reviews .stock{
+  padding: 4px 18px;
+  border: 1px solid grey;
+  border-radius: 16px;
+}
+.price{
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.colors p, .sizes p, .quantity p{
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.more-colors{
+  display: flex;
+}
+.color{
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.color1{
+  background-color: blue;
+}
+.color2{
+  background-color: peachpuff;
+}
+.color3{
+  background-color: olive;
+}
+.selected{
+  border: 2px solid grey; 
+}
+.size{
+  width: 40px;
+  text-align: center;
+  padding: 8px;
+  height: 40px;
+  border: 1px solid grey;
+  margin-right: 12px;
+  border-radius: 8px;
+}
+.selected-size{
+  border: 1px solid black;
+}
+.colors{
+  margin-bottom: 30px;
+}
+.sizes{
+  margin-bottom: 30px;
+}
+.quan{
+  display: flex;
+  padding: 6px 14px;
+  border: 1px solid grey;
+  border-radius: 8px;
+  width: 180px;
+}
+.minus, .plus, .number{
+  font-size: 22px;
+  font-weight: bold;
+}
+.minus{
+  margin-right: 60px;
+}
+.plus{
+  margin-left: 55px;
+}
+.addbuttons{
+  display: flex;
+  margin-top: 30px;
+  text-align: center;
+}
+.addtocart{
+  width: 300px;
+  padding: 6px 10px;
+  background-color: #0E1422;
+  margin-right: 20px;
+  color: white;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.heart{
+  padding: 6px 14px;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+
+@media(max-width: 400px){
+  .area{
+    display: flex;
+    flex-direction: column;
+  }
+}
+.Review{
+  display: flex;
+}
+.Review p{
+margin-left: 12px;
+}
+.detail{
+padding: 100px 170px;
+display: flex;
+justify-content: space-between;
+
+
+}
+.det p{
+margin-left: 30px;
+}
+.de p{
+  font-size: small;
+}
+body {
+  padding: 20px 60px;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px; /* Adjust margin as needed */
+  padding: 0px 40px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6c757d;
+}
+
+.search-input {
+  padding-left: 30px; /* Space for the icon */
+}
+
+.container {
+  background-color: black;
+  color: white;
+  padding: 10px 5px;
+
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+
+.page h1 {
+  padding-top: 150px;
+}
+.page{
+  padding-bottom: 100px;
+}
+
+.mainpage {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #F6F6F6;
+}
+.card{
+  color: black;
+}
+.container-fluid{
+  padding-top: 20px;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 100px;
+  margin: 80px 0;
+}
+.Ship{
+  text-align: center;
+}
+.products{
+  display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 80px;
+}
+.browse{
+  background-color: ghostwhite;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: ghostwhite;
+  color: black;
+  padding: 20px 0;
+  margin: 40px 0;
+}
+
+.feature{
+  padding: 30px 40px;
+  display: flex;
+  margin-left: 40%;
+}
+.product{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+padding: 20px 60px;
+}
+.news{
+  padding: 20px 60px;
+  background-color: ghostwhite;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0;
+}
+.details{
+  display: flex;
+  font-size: 14px;
+  font-weight: bold;
+  color: grey;
+}
+.heading h1{
+  font-weight: 600;
+}
+.prod-name{
+  font-weight: bold;
+  margin-top: 14px;
+  margin-bottom: 4px;
+}
+.stock{
+  border: 1px solid grey; 
+  border-radius: 10px; 
+  padding: 0 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+}
+.footer{
+  background-color: #fff;
+  color: black;
+  padding: 30px 0;
+}
+.footer ul{
+  list-style: none;
+}
+.footer ul li{
+  margin: 6px 0;
+  color: grey;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
